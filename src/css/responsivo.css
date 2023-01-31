@@ -24,3 +24,8 @@
 .container .botoes {
     display:grid;
 }
+
+
+.container .botoes_base {
+    display:grid;
+}
