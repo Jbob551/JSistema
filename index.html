@@ -6,14 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./src/css/reset.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./src/css/estilos.css">
     <link rel="stylesheet" href="./src/css/responsivo.css">
     <link rel="stylesheet" href="./src/css/estilos_gerais.css">
 
     <title>JSistema</title>
 </head>
+
 <body>
+
     <header class="cabecalho">
+
         <a href="./index.html">
             <img 
             class="logo"
@@ -31,6 +35,86 @@
         </nav>
 
     </header>
+
+    <nav class="sidebar">
+        <div class="sidebar-inner">
+            <header class="sidebar-header">
+                <button type="button" class="sidebar-burger" onclick="toggleSidebar()">
+                    <i class='bx bx-menu'></i>
+                </button>
+            </header>
+
+    
+    <nav class="sidebar-menu">
+
+        <button type="button">
+            <a href="./index.html">
+            <i class='bx bx-home' ></i>
+            <span>Início</span>
+            </a>
+        </button>
+
+        <button type="button">
+            <a href="https://discord.gg/YPTHNhtT5d">
+            <i class='bx bxs-contact'></i>
+            <span>Discord</span>
+            </a>
+        </button>
+
+        <button type="button">
+            <a href="#">
+            <i class='bx bx-user' ></i>
+            <span>Fichas</span>
+            </a>
+        </button>
+
+        <button type="button" class="has-border">
+            <a href="#">
+            <i class='bx bxs-dice-1'></i>
+            <span>Rolagens</span>
+            </a>
+        </button>
+
+        <button type="button">
+            <a href="./perdedores.html">
+            <img src="./src/imagens/perdedores.png"
+            height="10px">
+            <span>Perdedores</span>
+            </a>
+        </button>
+
+        <button type="button">
+            <a href="./desordem_natural.html">
+            <img src="./src/imagens/desordem_natural.jpg"
+            height="10px">
+            <span>Desordem Natural</span>
+            </a>
+        </button>
+
+        <button type="button">
+            <a href="./espaco_livre.html">
+            <img src="./src/imagens/espaco_livre.png"
+            height="10px">
+            <span>Espaço Livre</span>
+            </a>
+        </button>
+
+        <button type="button">
+            <a href="em_breve.html">
+            <i class='bx bxs-time'></i>
+            <span>Em Breve</span>
+            </a>
+        </button>
+    </nav>
+
+
+</div>
+</nav>
+
+    <script type="text/javascript">
+        const toggleSidebar = () => document.body.classList.toggle("open");
+    </script>
+
 
     <main class="container">
 
