@@ -174,7 +174,6 @@ body.open .sidebar{
     align-items: center;
     height: 68px;
     padding: 0 1.25rem 0 0;
-    background: rgba(0, 0, 0, 0.1);
     border-left: 3px solid transparent;
     transition: all 0.4s;
 }
