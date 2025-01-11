@@ -1,0 +1,31 @@
+.container .informacoes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+.container .descricao {
+        color: #ffffff;
+        text-align: center;
+    }
+
+.container .perdedores {
+        max-width: 30%;
+}
+
+.container .espaco_livre {
+    max-width: 30%;
+}
+
+.container .cidade_de_sangue {
+    max-width: 30%;
+}
+
+.container .botoes {
+    display:grid;
+}
+
+
+.container .botoes_base {
+    display:grid;
+}

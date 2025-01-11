@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="stylesheet" href="./src/css/estilos_gerais.css">
+
+    <title>JSistema</title>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+
+        <a href="./index.html">
+            <img 
+            class="logo"
+            src="./src/imagens/js.png"
+            alt="logo_js">
+        </a>
+
+        <nav>
+            <ul class="menu" type="none">
+                <li> <a href="./perdedores.html">Perdedores</a> </li>
+                <li> <a href="desordem_natural.html">Desordem Natural</a> </li>
+                <li> <a href="espaco_livre.html">Espaço Livre</a> </li>
+                <li> <a href="em_breve.html">Em breve</a> </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <nav class="sidebar">
+
+        <div class="sidebar-inner">
+
+            <header class="sidebar-header">
+
+                <button type="button" 
+                class="sidebar-burger"
+                onclick="toggleSidebar()">
+
+                <img 
+                src="./src/imagens/menu.png"
+                height="20px">
+
+                </button>
+
+            </header>
+
+    <nav class="sidebar-menu">
+
+        <button type="button">
+
+            <a href="./index.html">
+
+                <img 
+                src="./src/imagens/inicio.png"
+                height="10px">
+
+            <span>Início</span>
+
+            </a>
+
+        </button>
+
+        <button type="button">
+
+            <a href="https://discord.gg/YPTHNhtT5d">
+
+                <img 
+                src="./src/imagens/discord.png"
+                height="10px">
+
+            <span>Discord</span>
+
+            </a>
+
+        </button>
+
+        <button type="button">
+
+            <a href="#">
+
+                <img 
+                src="./src/imagens/ficha.png"
+                height="10px">
+
+            <span>Fichas</span>
+
+            </a>
+
+        </button>
+
+        <button type="button" 
+        class="has-border">
+
+            <a href="#">
+                <img 
+                src="./src/imagens/rolagem.png"
+                height="10px">
+
+            <span>Rolagens</span>
+
+            </a>
+
+        </button>
+
+        <button type="button">
+
+            <a href="./perdedores.html">
+
+            <img 
+            src="./src/imagens/perdedores.png"
+            height="10px">
+
+            <span>Perdedores</span>
+
+            </a>
+
+        </button>
+
+        <button type="button">
+
+            <a href="./desordem_natural.html">
+
+            <img 
+            src="./src/imagens/desordem_natural.jpg"
+            height="10px">
+
+            <span>Desordem Natural</span>
+
+            </a>
+
+        </button>
+
+        <button type="button">
+
+            <a href="./espaco_livre.html">
+
+            <img src="./src/imagens/espaco_livre.png"
+            height="10px">
+
+            <span>Espaço Livre</span>
+
+            </a>
+
+        </button>
+
+        <button type="button">
+
+            <a href="em_breve.html">
+
+                <img src="./src/imagens/em_breve.png"
+                height="10px">
+
+            <span>Em Breve</span>
+
+            </a>
+
+        </button>
+
+    </nav>
+
+</div>
+
+</nav>
+
+    <script type="text/javascript">
+
+        const toggleSidebar = () => document.body.classList.toggle("open");
+
+    </script>
+
+    <main class="container">
+
+        <img 
+            style="margin-right: 30px;"
+            class="perdedores"
+            src="./src/imagens/perdedores.png"
+            alt="imagem_perdedores"
+            width="400" 
+            height="200">
+
+        <img 
+            style="margin-right: 30px;"
+            class="desordem_natural"
+            src="./src/imagens/desordem_natural.jpg"
+            alt="imagem_desordem_natural"
+            width="400" 
+            height="200">
+
+        <img 
+            style="margin-right: 30px;"
+            class="espaco_livre"
+            src="./src/imagens/espaco_livre.png"
+            alt="imagem_espaco_livre"
+            width="400" 
+            height="200">
+
+        <div class="informacoes">
+
+            <p 
+            style="margin-left : 100px;"
+            class="descricao"
+            >
+                Sistema autoral que pode sofrer mudanças. Clique aqui para visualizar o sistema base.
+            </p>
+            
+            <ul class="botoes">
+    
+                <li>
+                    <button 
+                    style="margin-bottom: 30px; margin-left: 100px;" 
+                    class="botao">
+                        <a href="./sistema_base.html"; 
+                        download; 
+                        class="treco">Sistema Base</a>
+                    </button>
+                </li>
+    
+                <li>    
+                    <button 
+                    style="margin-bottom: 30px; margin-left: 100px;" 
+                    class="botao">
+                        <a href="https://discord.gg/YPTHNhtT5d";
+                        class="treco">Discord</a>
+                    </button>
+                </li>   
+    
+            </ul>
+
+        </div>
+
+    </main>
+    
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
